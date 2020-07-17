@@ -4,16 +4,24 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <header>
       <!--Main Navigation-->
       <nav>
-        <ul>
-          <li><a href="#">Web Studio</a></li>
-          <li><a href="#">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
+        <ul class="site-nav">
+          <li>
+            <a href="./index.html" class="link">
+              <span class="logo-web">Web</span>
+              <span class="logo-studio">Studio</span>
+            </a>
+          </li>
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="./portfolio.html" class="link currant">Портфолио</a></li>
+          <li><a href="#" class="link">Контакты</a></li>
         </ul>
       </nav>
 
@@ -21,10 +29,12 @@
       <address>
         <ul>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="contacts"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+380961111111</a>
+            <a href="tel:+380961111111" class="contacts">+380961111111</a>
           </li>
         </ul>
       </address>
@@ -61,7 +71,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="./images/posterNewOrlean.jpg" alt="Постер" />
               <h2>Постер New Orlean vs Golden Star</h2>
               <p>Дизайн</p>
@@ -73,7 +83,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img
                 src="./images/restaurant.jpg"
                 alt="Приложение для ресторана"
@@ -88,7 +98,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="./images/projectPrime.jpg" alt="Маркетинговый проект" />
               <h2>Проект Prime</h2>
               <p>Маркетинг</p>
@@ -100,7 +110,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="./images/projectBoxes.jpg" alt="Приложение Коробка" />
               <h2>Проект Boxes</h2>
               <p>Приложение</p>
@@ -112,7 +122,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img
                 src="./images/InspirationHasNoBorders.jpg"
                 alt="Веб сайт про вдохновение"
@@ -127,7 +137,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="./images/EditionLimitedEdition.jpg" alt="Дизайн" />
               <h2>Издание Limited Edition</h2>
               <p>Дизайн</p>
@@ -139,7 +149,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img src="./images/projectLab.jpg" alt="Маркетинг проекта Лаб" />
               <h2>Проект LAB</h2>
               <p>Маркетинг</p>
@@ -151,7 +161,7 @@
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <img
                 src="./images/growingBusiness.jpg"
                 alt="Приложение про бизнес"
@@ -170,20 +180,25 @@
     </main>
 
     <!--Footer-->
-    <footer>
+    <footer class="footer">
       <!--adress section-->
-      <div><a href="#">Web Studio</a></div>
+      <div>
+        <a href="#">
+          <span class="logo-web">Web</span>
+          <span class="logo-studio web-white">Studio</span>
+        </a>
+      </div>
       <div>
         <p>
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          info@devstudio.com <br />
-          +380961111111 <br />
+          <span class="adress">г. Киев, пр-т Леси Украинки, 26 </span><br />
+          <span class="email">info@devstudio.com </span><br />
+          <span class="phone">+380961111111 </span><br />
         </p>
       </div>
 
       <!--Sosial media section-->
       <div>
-        <b>Присоединяйтесь</b>
+        <b class="slogan">Присоединяйтесь</b>
         <ul>
           <li>
             <a
@@ -191,7 +206,8 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="ссылка Инстаграм"
-            ></a>
+              ><img src="./images/insta.svg" alt="Линк на Инстаграм"
+            /></a>
           </li>
           <li>
             <a
@@ -199,7 +215,8 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="ссылка Твиттер"
-            ></a>
+              ><img src="./images/twitter.svg" alt="Линк на Твиттер"
+            /></a>
           </li>
           <li>
             <a
@@ -207,7 +224,8 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="ссылка Фейсбук"
-            ></a>
+              ><img src="./images/facebook.svg" alt="Линк на Фейсбук"
+            /></a>
           </li>
           <li>
             <a
@@ -215,11 +233,13 @@
               target="_blank"
               rel="noopener noreferrer"
               aria-label="ссылка Линкедин"
-            ></a>
+              ><img src="./images/linkedin.svg" alt="Линк на Линкедин"
+            /></a>
           </li>
         </ul>
       </div>
       <!--Dont forget create form here-->
+      <button type="button" class="button">Подписаться</button>
     </footer>
   </body>
 </html>

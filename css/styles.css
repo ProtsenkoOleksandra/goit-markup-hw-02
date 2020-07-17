@@ -1,0 +1,124 @@
+/* COLOR BOX*/
+
+/* title text color (h) #212121 */
+/* primary text color (p) #757575 */
+/* color of white text (p) #FFFFFF */
+/* color of white text aditional with alfa channel (info/tel)  rgba(255, 255, 255, 0.6)*/
+
+/* color blue for hover #2196F3 */
+
+/* social icons and clients logo #AFB1B8*/
+
+/* background color main #FFFFFF*/
+/* backround editional color #F5F4FA */
+/* backround footer #2F303A */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --acent-text-color: #2196f3;
+  --contacts-text-color: rgba(255, 255, 255, 0.6);
+  --footer-background-color: #2f303a;
+  --white-text-color: #ffffff;
+}
+
+/* CLASSES UTILITIES AND UNIVERSE*/
+
+ul {
+  list-style-type: none;
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.button {
+  background-color: var(--acent-text-color);
+  color: var(--white-text-color);
+}
+
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+/* Main Navigation*/
+.logo-web {
+  color: var(--acent-text-color);
+}
+
+.logo-studio {
+  color: var(--title-text-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.contacts {
+  color: var(--primary-text-color);
+}
+
+.link:hover,
+.link:focus,
+.contacts:hover,
+.contacts:focus,
+.logo-web:hover,
+.logo-web:focus,
+.logo-studio:hover,
+.logo-studio:focus,
+.button:hover,
+.button:focus {
+  color: var(--acent-text-color);
+}
+
+.link.currant {
+  color: var(--acent-text-color);
+}
+
+/* Hero*/
+.hero-title {
+  color: #ffffff;
+  background-color: black; /*background-color it´s temporary put here*/
+}
+
+/* Work principles*/
+
+.principles-title {
+  color: var(--title-text-color);
+}
+
+/* What do we do section*/
+.work-list-title {
+  color: var(--title-text-color);
+}
+
+/* Our team section*/
+.team-member-name {
+  color: var(--title-text-color);
+}
+
+/* Our clients section*/
+
+/* Adress section*/
+.footer {
+  background: var(--footer-background-color);
+}
+.adress {
+  color: var(--white-text-color);
+}
+
+.email,
+.phone {
+  color: var(--contacts-text-color);
+}
+
+.web-white {
+  color: var(--white-text-color);
+}
+
+.slogan {
+  color: var(--white-text-color);
+}
+
+/*PORTFOLIO PAGE CSS*/
