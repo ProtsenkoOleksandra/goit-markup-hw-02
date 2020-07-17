@@ -20,6 +20,7 @@
   --contacts-text-color: rgba(255, 255, 255, 0.6);
   --footer-background-color: #2f303a;
   --white-text-color: #ffffff;
+  --grey-back-color: #f5f4fa;
 }
 
 /* CLASSES UTILITIES AND UNIVERSE*/
@@ -37,7 +38,7 @@ ul {
   color: var(--white-text-color);
 }
 
-body {
+.button.portfolio body {
   background-color: #ffffff;
   color: var(--primary-text-color);
 }
@@ -94,6 +95,9 @@ body {
 }
 
 /* Our team section*/
+.team-section {
+  background-color: var(--grey-back-color);
+}
 .team-member-name {
   color: var(--title-text-color);
 }
