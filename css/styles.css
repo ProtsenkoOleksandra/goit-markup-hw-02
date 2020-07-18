@@ -29,16 +29,14 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
 .section-title {
   color: var(--title-text-color);
 }
 
-.button {
-  background-color: var(--acent-text-color);
-  color: var(--white-text-color);
-}
-
-.button.portfolio body {
+body {
   background-color: #ffffff;
   color: var(--primary-text-color);
 }
@@ -58,6 +56,11 @@ ul {
 
 .contacts {
   color: var(--primary-text-color);
+}
+
+.button {
+  background-color: var(--acent-text-color);
+  color: var(--white-text-color);
 }
 
 .link:hover,
@@ -126,3 +129,27 @@ ul {
 }
 
 /*PORTFOLIO PAGE CSS*/
+
+.button-portfolio {
+  background-color: var(--grey-back-color);
+  color: var(--title-text-color);
+}
+
+.button-portfolio:focus,
+.button-portfolio:hover {
+  background-color: var(--acent-text-color);
+  color: var(--white-text-color);
+}
+
+.portfolio-title {
+  color: var(--title-text-color);
+}
+
+.portfolio-group {
+  color: var(--primary-text-color);
+}
+
+.portfolio-description {
+  color: var(--white-text-color);
+  background-color: var(--footer-background-color); /*temporary here*/
+}
