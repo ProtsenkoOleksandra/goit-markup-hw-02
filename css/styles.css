@@ -4,11 +4,8 @@
 /* primary text color (p) #757575 */
 /* color of white text (p) #FFFFFF */
 /* color of white text aditional with alfa channel (info/tel)  rgba(255, 255, 255, 0.6)*/
-
 /* color blue for hover #2196F3 */
-
 /* social icons and clients logo #AFB1B8*/
-
 /* background color main #FFFFFF*/
 /* backround editional color #F5F4FA */
 /* backround footer #2F303A */
@@ -39,15 +36,26 @@ a {
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
 }
 
 /* Main Navigation*/
 .logo-web {
   color: var(--acent-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
   color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -122,6 +130,11 @@ body {
 
 .web-white {
   color: var(--white-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .slogan {
