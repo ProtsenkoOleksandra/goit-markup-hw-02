@@ -31,6 +31,11 @@ a {
 }
 .section-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-align: center;
 }
 
 body {
@@ -60,15 +65,24 @@ body {
 
 .site-nav .link {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .contacts {
   color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.02em;
 }
 
 .button {
   background-color: var(--acent-text-color);
   color: var(--white-text-color);
+  font-family: inherit;
 }
 
 .link:hover,
@@ -92,17 +106,42 @@ body {
 .hero-title {
   color: #ffffff;
   background-color: black; /*background-color it´s temporary put here*/
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Work principles*/
 
 .principles-title {
   color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.principles-description {
+  font-weight: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 /* What do we do section*/
 .work-list-title {
-  color: var(--title-text-color);
+  color: var(--white-text-color);
+  background-color: black; /*is temporary here*/
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* Our team section*/
@@ -111,6 +150,19 @@ body {
 }
 .team-member-name {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 0.84;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Our clients section*/
@@ -121,11 +173,19 @@ body {
 }
 .adress {
   color: var(--white-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .email,
 .phone {
   color: var(--contacts-text-color);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .web-white {
@@ -139,6 +199,11 @@ body {
 
 .slogan {
   color: var(--white-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /*PORTFOLIO PAGE CSS*/
@@ -146,6 +211,7 @@ body {
 .button-portfolio {
   background-color: var(--grey-back-color);
   color: var(--title-text-color);
+  font-family: inherit;
 }
 
 .button-portfolio:focus,
