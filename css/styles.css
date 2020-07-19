@@ -59,6 +59,9 @@ body {
   letter-spacing: 0.02em;
 }
 
+.adress-top {
+  font-style: normal;
+}
 .contacts {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -113,7 +116,7 @@ body {
 }
 
 .principles-description {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -158,7 +161,7 @@ body {
 .footer {
   background: var(--footer-background-color);
 }
-.adress {
+.footer-adress {
   color: var(--white-text-color);
   font-weight: 400;
   font-size: 14px;
