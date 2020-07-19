@@ -85,10 +85,6 @@ body {
 .link:focus,
 .contacts:hover,
 .contacts:focus,
-.logo-web:hover,
-.logo-web:focus,
-.logo-studio:hover,
-.logo-studio:focus,
 .button:active,
 .button-portfolio:active {
   color: var(--acent-text-color);
